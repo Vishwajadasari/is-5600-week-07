@@ -33,7 +33,7 @@ export default function PurchaseForm({filter}) {
       .catch((error) => {
         console.error('Error creating order:', error);
       });
-    
+
   }
 
   return (
@@ -47,4 +47,5 @@ export default function PurchaseForm({filter}) {
     </fieldset>
     </form>
   )
+
 }
